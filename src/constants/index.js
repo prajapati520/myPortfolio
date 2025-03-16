@@ -17,10 +17,10 @@ import {
    postgresql,
    rubyrails,
    graphql,
-   komikult,
-   leaderboard,
-   math,
-   movie,
+   fleet,
+   farmo,
+   metrium,
+   littlerippers,
    nyeusi,
    //  space,
    //  coverhunt,
@@ -156,11 +156,12 @@ const experiences = [
 const projects = [
    {
       id: "project-1",
-      name: "KomiKult",
-      description: "A comic characters list app that displays Marvel characters.",
+      name: "Fleet",
+      description:
+         "Provide engaged management and engineered efficiency so our customers can focus their resources on core business objectives and revenue-driving initiatives",
       tags: [
          {
-            name: "react",
+            name: "Mean Stack",
             color: "blue-text-gradient",
          },
          {
@@ -168,21 +169,22 @@ const projects = [
             color: "green-text-gradient",
          },
          {
-            name: "tailwind",
+            name: "Css",
             color: "pink-text-gradient",
          },
       ],
-      image: komikult,
+      image: fleet,
       repo: "https://github.com/shaqdeff/KomiKult",
       demo: "https://shaqdeff.github.io/KomiKult/",
    },
    {
       id: "project-2",
-      name: "Leaderboard",
-      description: "A leaderboard list app that displays scores submitted by different players.",
+      name: "Farmo",
+      description:
+         "Farmo’s mission is to provide easy to use solutions to the many challenges faced on farms",
       tags: [
          {
-            name: "react",
+            name: "Mean Stack",
             color: "blue-text-gradient",
          },
          {
@@ -190,25 +192,25 @@ const projects = [
             color: "green-text-gradient",
          },
          {
-            name: "scss",
+            name: "css",
             color: "pink-text-gradient",
          },
       ],
-      image: leaderboard,
-      repo: "https://github.com/shaqdeff/Leaderboard",
-      demo: "https://shaqdeff.github.io/Leaderboard/",
+      image: farmo,
+      repo: "https://github.com/",
+      demo: "",
    },
    {
       id: "project-3",
-      name: "Math Magicians",
+      name: "Metrium",
       description: "This is a single-page calculator app built with React",
       tags: [
          {
-            name: "nextjs",
+            name: "Mean Stack",
             color: "blue-text-gradient",
          },
          {
-            name: "supabase",
+            name: "PostgreSQL",
             color: "green-text-gradient",
          },
          {
@@ -216,21 +218,21 @@ const projects = [
             color: "pink-text-gradient",
          },
       ],
-      image: math,
-      repo: "https://github.com/shaqdeff/Math-Magicians",
+      image: metrium,
+      repo: "https://github.com/",
       demo: "https://inspiring-medovik-37d3b3.netlify.app/",
    },
    {
       id: "project-4",
-      name: "Movie Metro",
-      description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+      name: "littlerippers",
+      description: ``,
       tags: [
          {
-            name: "nextjs",
+            name: "Mean Stack",
             color: "blue-text-gradient",
          },
          {
-            name: "supabase",
+            name: "MongoDB",
             color: "green-text-gradient",
          },
          {
@@ -238,8 +240,8 @@ const projects = [
             color: "pink-text-gradient",
          },
       ],
-      image: movie,
-      repo: "https://github.com/shaqdeff/Movie-Metro",
+      image: littlerippers,
+      repo: "https://github.com/",
       demo: "https://movie-metro.netlify.app/",
    },
    {

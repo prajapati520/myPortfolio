@@ -43,10 +43,10 @@ import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/sa.png";
 
-import komikult from "./projects/komikult.png";
-import leaderboard from "./projects/leaderboard.png";
-import math from "./projects/math-magicians.png";
-import movie from "./projects/movie-metro.png";
+import fleet from "./projects/fleet.jpg";
+import farmo from "./projects/farmo.jpg";
+import metrium from "./projects/metrium.jpg";
+import littlerippers from "./projects/little-rippers.jpg";
 import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
 
@@ -86,10 +86,10 @@ export {
    redux,
    tailwind,
    typescript,
-   komikult,
-   leaderboard,
-   math,
-   movie,
+   fleet,
+   farmo,
+   metrium,
+   littlerippers,
    nyeusi,
    space,
    coverhunt,
